@@ -1,0 +1,207 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fdfaf6;
+    color: #333;
+  }
+  
+  header {
+    background-color: #f3c6c6;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #f3c6c6;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  main h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  section {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background-color: #fff4f4;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  section h3 {
+    margin-top: 0;
+    color: #aa4a44;
+  }
+  
+  section ul {
+    padding-left: 20px;
+  }
+  
+  section li {
+    margin-bottom: 5px;
+  }
+  
+  form {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  form button {
+    margin-top: 20px;
+    padding: 10px 15px;
+    background-color: #aa4a44;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #922e2e;
+  }
+  
+  .servicios-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 2rem;
+  }
+  
+  .card {
+    background-color: #fff;
+    padding: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .card i {
+    font-size: 2.5rem;
+    color: #79c2b3;
+    margin-bottom: 1rem;
+  }
+  
+  .card h3 {
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+    color: #333;
+  }
+  
+  .card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .card ul li {
+    padding: 0.3rem 0;
+  }
+  
+  .bienvenida {
+    text-align: center;
+    padding: 2rem;
+  }
+  
+  .bienvenida i {
+    color: #79c2b3;
+    margin-right: 0.5rem;
+  }
+  
+  .contacto-section, .formulario-section {
+    max-width: 700px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .contacto-info {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .contacto-info li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+  }
+  
+  .contacto-info i {
+    color: #79c2b3;
+    margin-right: 0.6rem;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form input, form select, form textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+  }
+  
+  form button {
+    background-color: #79c2b3;
+    color: white;
+    font-size: 1rem;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #5aa69d;
+  }
+  
