@@ -1,4 +1,4 @@
-/* style.css actualizado */
+/* styleContacto.css - Estilos para la página de contacto */
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -47,134 +47,96 @@ header h1 {
   font-weight: bold;
 }
 
-.hero img {
-  width: 100%;
-  height: auto;
-  max-height: 500px;
-  display: block;
-  object-fit: cover;
-}
-
-.populares {
-  padding: 2rem;
-  text-align: center;
-  background-color: #d1f3f6;
-}
-
-.populares h2 {
-  font-size: 2rem;
-  color: #0b6e75;
-  margin-bottom: 2rem;
-}
-
-.cards {
+/* SECCIÓN CONTACTO */
+.contacto-section {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   gap: 2rem;
+  padding: 3rem 2rem;
 }
 
-.card {
-  background-color: white;
-  border-radius: 0.5rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-  max-width: 300px;
-  padding: 1rem;
+/* Imagen y título */
+.imagen-contacto {
+  position: relative;
+  flex: 1;
   text-align: center;
 }
 
-.card img {
+.imagen-contacto img {
   width: 100%;
-  border-radius: 0.5rem;
+  max-width: 500px;
+  border-radius: 10px;
+}
+
+.imagen-contacto h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* FORMULARIO */
+.formulario-contacto {
+  background-color: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  max-width: 450px;
+}
+
+.formulario-contacto h2 {
+  text-align: center;
+  color: #0b6e75;
   margin-bottom: 1rem;
 }
 
-.card h3 {
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+label {
+  font-weight: bold;
   color: #0b6e75;
 }
 
-.card p {
-  font-size: 0.95rem;
-  color: #555;
-  margin: 0.5rem 0 1rem;
-}
-
-.btn {
-  background-color: #0b6e75;
-  color: white;
-  padding: 0.5rem 1rem;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-}
-
-.encuentranos {
-  padding: 2rem;
-  background-color: #a1f1fa;
-  text-align: center;
-}
-
-.mapa-contacto {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-  margin-top: 1rem;
-}
-
-iframe {
+input, textarea {
   width: 100%;
-  max-width: 500px;
-  height: 300px;
-  border: none;
-  border-radius: 10px;
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
 }
 
-.whatsapp {
-  background-color: #2dbd7f;
-  color: white;
-  padding: 1rem;
-  border-radius: 10px;
-  max-width: 300px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+textarea {
+  resize: none;
+  height: 100px;
 }
 
-.info-extra {
-  background-image: url('../img/fondo-toalla.jpg');
-  background-size: cover;
-  background-position: center;
-  padding: 5rem 2rem;
-  text-align: center;
-  color: white;
-}
-
-.info-extra h2 {
-  margin-bottom: 2rem;
-}
-
-.extra-links {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 2rem;
-}
-
-.btn-icon {
+button {
   background-color: #0b6e75;
   color: white;
-  padding: 1rem 1.5rem;
-  border-radius: 10px;
-  text-decoration: none;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
   font-weight: bold;
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
 }
 
-/* styleFooter.css - Ajuste en la distribución del footer */
+button:hover {
+  background-color: #084e54;
+  transform: scale(1.05);
+}
 
 .footer {
   background-color: #0b6e75;
@@ -243,5 +205,3 @@ iframe {
     align-items: center;
   }
 }
-
-  
