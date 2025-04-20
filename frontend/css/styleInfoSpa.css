@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f6f5f0;
+  color: #00332f;
+}
+
+header {
+  background-color: #006b67;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 2em;
+}
+
+.logo h1 {
+  font-family: "Pacifico", cursive;
+  font-size: 1.8rem;
+  margin-left: 10px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+/* Ajustes generales */
+.sobre-nosotros {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2em;
+  gap: 2em;
+  align-items: center; /* Asegura que los elementos estén centrados verticalmente */
+  justify-content: center;
+}
+
+.sobre-nosotros .imagen {
+  flex: 1;
+  position: relative;
+  max-width: 600px; /* Limita el ancho máximo de la imagen */
+}
+
+.sobre-nosotros .imagen img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover; /* Asegura que la imagen se ajuste correctamente */
+}
+
+.sobre-nosotros .imagen h2 {
+  padding: 0.2em 1em;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7); /* Agrega sombra al texto para mayor legibilidad */
+}
+
+.sobre-nosotros .texto {
+  flex: 1;
+  background-color: #006b67;
+  color: white;
+  padding: 2em;
+  border-radius: 10px;
+  max-width: 600px; /* Limita el ancho máximo del texto */
+  line-height: 1.6; /* Mejora la legibilidad del texto */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Agrega un efecto de sombra */
+}
+
+footer {
+  background-color: #006b67;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 2em;
+  gap: 2em;
+}
+.social-icons {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.social-icons a img.icon {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s ease;
+}
+
+.social-icons a img.icon:hover {
+  transform: scale(1.1);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2em;
+  background-color: #006b68;
+  color: white;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.logo-footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.logo-footer img {
+  height: 50px;
+}
